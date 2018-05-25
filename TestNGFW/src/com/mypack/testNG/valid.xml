@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+ <test name="Iteration1">
+  <Parameter name="uid" value="mohan.leed07@gmail.com"/>
+  <Parameter name="criteria" value="valid"/>
+    <classes>
+      <class name="com.mypack.testNG.TestMethods"/>
+    </classes>
+  </test> 
+  <test name="Iteration2">
+  <Parameter name="uid" value="mohan.leed08@gmail.com"/>
+  <Parameter name="criteria" value="invalid"/>
+    <classes>
+      <class name="com.mypack.testNG.TestMethods"/>
+    </classes>
+  </test>  
+</suite> 

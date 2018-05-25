@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="4" total="8" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27754" started-at="2018-05-25T07:11:21Z" finished-at="2018-05-25T07:11:48Z">
+    <groups>
+    </groups>
+    <test name="Iteration1" duration-ms="15402" started-at="2018-05-25T07:11:21Z" finished-at="2018-05-25T07:11:36Z">
+      <class name="com.mypack.testNG.TestMethods">
+        <test-method status="PASS" signature="f1()[pri:0, instance:com.mypack.testNG.TestMethods@246ae04d]" name="f1" duration-ms="15343" started-at="2018-05-25T12:41:21Z" finished-at="2018-05-25T12:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="FAIL" signature="f2(java.lang.String)[pri:0, instance:com.mypack.testNG.TestMethods@246ae04d]" name="f2" duration-ms="0" started-at="2018-05-25T12:41:36Z" finished-at="2018-05-25T12:41:36Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'uid' is required by @Test on method f2 but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNGFW\src\com\mypack\testNG\valid.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'uid' is required by @Test on method f2 but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNGFW\src\com\mypack\testNG\valid.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="FAIL" signature="f3(java.lang.String)[pri:0, instance:com.mypack.testNG.TestMethods@246ae04d]" name="f3" duration-ms="0" started-at="2018-05-25T12:41:36Z" finished-at="2018-05-25T12:41:36Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'criteria' is required by @Test on method f3 but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNGFW\src\com\mypack\testNG\valid.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'criteria' is required by @Test on method f3 but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNGFW\src\com\mypack\testNG\valid.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method status="SKIP" signature="f4()[pri:0, instance:com.mypack.testNG.TestMethods@246ae04d]" name="f4" duration-ms="1" started-at="2018-05-25T12:41:36Z" depends-on-methods="com.mypack.testNG.TestMethods.f3" finished-at="2018-05-25T12:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+      </class> <!-- com.mypack.testNG.TestMethods -->
+    </test> <!-- Iteration1 -->
+    <test name="Iteration2" duration-ms="12282" started-at="2018-05-25T07:11:36Z" finished-at="2018-05-25T07:11:48Z">
+      <class name="com.mypack.testNG.TestMethods">
+        <test-method status="PASS" signature="f1()[pri:0, instance:com.mypack.testNG.TestMethods@50f8360d]" name="f1" duration-ms="12245" started-at="2018-05-25T12:41:36Z" finished-at="2018-05-25T12:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="FAIL" signature="f2(java.lang.String)[pri:0, instance:com.mypack.testNG.TestMethods@50f8360d]" name="f2" duration-ms="0" started-at="2018-05-25T12:41:48Z" finished-at="2018-05-25T12:41:48Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'uid' is required by @Test on method f2 but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNGFW\src\com\mypack\testNG\valid.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'uid' is required by @Test on method f2 but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNGFW\src\com\mypack\testNG\valid.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="FAIL" signature="f3(java.lang.String)[pri:0, instance:com.mypack.testNG.TestMethods@50f8360d]" name="f3" duration-ms="0" started-at="2018-05-25T12:41:48Z" finished-at="2018-05-25T12:41:48Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'criteria' is required by @Test on method f3 but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNGFW\src\com\mypack\testNG\valid.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'criteria' is required by @Test on method f3 but has not been marked @Optional or defined
+in C:\Users\DELL\eclipse-workspace\TestNGFW\src\com\mypack\testNG\valid.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method status="SKIP" signature="f4()[pri:0, instance:com.mypack.testNG.TestMethods@50f8360d]" name="f4" duration-ms="1" started-at="2018-05-25T12:41:48Z" depends-on-methods="com.mypack.testNG.TestMethods.f3" finished-at="2018-05-25T12:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+      </class> <!-- com.mypack.testNG.TestMethods -->
+    </test> <!-- Iteration2 -->
+  </suite> <!-- Suite -->
+</testng-results>
